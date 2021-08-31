@@ -203,7 +203,7 @@ nav  ul.primary-nav{
   margin: .5em;
   cursor: pointer;
 }
-@media only screen and (min-width:768px){
+@media(max-width:768px){
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
@@ -247,7 +247,7 @@ nav  ul.primary-nav{
     color: white;
   }
 }
-@media only screen and (min-width:1080px)  {
+@media(max-width:1080px)  {
     .container{
       width: 1080px;
       margin: 0 auto;
@@ -321,7 +321,7 @@ nav  ul.primary-nav{
         height: 100%;
       }
 }
-@media only screen and (min-width:1450px){
+@media(max-width:1450px){
   .features-section:before{
     content:'';
     position: absolute;
