@@ -246,8 +246,7 @@ nav  ul.primary-nav{
     background: #007AF3;
     color: white;
   }
-}
-@media(min-width:1080px)  {
+}@media only screen and (min-width:1080px)  {
     .container{
       width: 1080px;
       margin: 0 auto;
@@ -321,7 +320,7 @@ nav  ul.primary-nav{
         height: 100%;
       }
 }
-@media(min-width:1450px){
+@media only screen and (min-width:1450px){
   .features-section:before{
     content:'';
     position: absolute;
