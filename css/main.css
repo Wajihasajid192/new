@@ -247,7 +247,7 @@ nav  ul.primary-nav{
     color: white;
   }
 }
-@media(max-width:1080px)  {
+@media(min-width:1080px)  {
     .container{
       width: 1080px;
       margin: 0 auto;
@@ -321,7 +321,7 @@ nav  ul.primary-nav{
         height: 100%;
       }
 }
-@media(max-width:1450px){
+@media(min-width:1450px){
   .features-section:before{
     content:'';
     position: absolute;
