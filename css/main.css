@@ -6,7 +6,7 @@ body {
 
 .navbar {
   background: white;
-  padding: 1em;
+  padding: 2em;
 }
 
 .navbar .logo {
@@ -96,8 +96,7 @@ section.features-section {
 ul.features-list{
   margin: 0;
   padding-left: .1em;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  display: block;
 }
 ul.features-list li{
   font-size: 1.1em;
